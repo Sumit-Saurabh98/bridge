@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/button";
+
+import LandingPage from "./components/LandingPage";
 
 
 export default function Home() {
   return (
     <div>
-<Button>Hello World!</Button>
+      <LandingPage/>
     </div>
   );
 }
